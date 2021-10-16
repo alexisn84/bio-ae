@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Apply styles to header*/
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #96a0a1;
+    padding: 20px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+.head-img {
+    flex: 1 10%;
+    margin-right: 80px;
+    }
+
+header h1 {
+    color:skyblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+
+header a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+header nav {
+    margin: 8px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-size: 1.6vw;
+    font-weight: lighter;
+    padding: 10px 30px;
+    font-style: italic;
+}
+
+
+/*rename later*/
+h2 {
+    color: aqua;
+}
