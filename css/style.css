@@ -33,6 +33,7 @@ header a {
 
 header nav {
     margin: 8px 0;
+    list-style: none;
 }
 
 header nav ul {
@@ -40,8 +41,7 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-}
+    }
 
 header nav ul li a {
     font-size: 1.6vw;
@@ -63,7 +63,7 @@ h2 {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
@@ -71,25 +71,39 @@ h2 {
     }
 
 .contact-cta {
+    border: 4px solid skyblue;
+    color: slateblue;
+    background-color: rgba(255, 255, 255, 0.70);
+    padding: 80px;
+    width: 30%;
     margin: 3%;
-    width: 40%;
-    text-align: right;
-    color: wheat;
-    font-size: 16px;
-    line-height: 1.3;
+    border-radius: 10%;
+    justify-content: space-between;
     }
 
 .contact-cta h2 {
-    font-size: 45px;
-    color: wheat;
+    font-size: 33px;
+    color: slateblue;
+    margin: 0%;
+    }
+
+.contact-cta ul {
+    list-style-type: none;
+}
+
+.contact-cta ul li a {
+    color: rgb(14, 118, 221);
+    font-size: 24px;
+    text-decoration: none;
+    justify-content: space-around;
 }
 
 .contact-form {
-    border: 4px solid slategray;
-    color: wheat;
-    background-color: rgba(113, 154, 158, 0.75);
+    border: 4px solid skyblue;
+    color: slateblue;
+    background-color: rgba(255, 255, 255, 0.70);
     padding: 20px;
-    width: 20%;
+    width: 30%;
     margin: 3%;
     border-radius: 10%;
 }
@@ -101,6 +115,7 @@ h2 {
 
 .contact-form p {
     margin: 5px 0 15px 0;
+    font-size: 17px;
 }
 
 .contact-form label {
@@ -108,8 +123,8 @@ h2 {
 }
 
 .contact-form button {
-    color: wheat;
-    background-color: slategray;
+    color: slateblue;
+    background-color: wheat;
     border: none;
     padding: 10px 20px;
     font-size: 18px;
@@ -117,7 +132,7 @@ h2 {
 }
 
 .contact-form button:hover {
-    background-color: snow;
+    background-color: skyblue;
 }
 
 .form-info {
