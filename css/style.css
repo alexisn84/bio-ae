@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*Apply styles to header*/
+/*Start styles to header*/
 header {
     position: -webkit-sticky;
     position: sticky;
@@ -51,10 +51,45 @@ header nav ul li a {
 }
 
 
-/*rename later*/
-h2 {
-    color: aqua;
+
+/*Start styles to biography*/
+.portrait {
+    width: 100%;
+    margin: 0 auto;
 }
+
+.portrait img {
+    width: 35%;
+    float: left;
+}
+
+.about-me h2 {
+    border-bottom: 10px solid slateblue;
+    font-size: 36px;
+    text-align: center;
+}
+
+.my-info p {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/*Start styles to portfolio*/
+
+.portfolio {
+    padding: 45px;
+    margin: 50px;
+}
+
+.portfolio h2 {
+    color: slateblue;
+}
+
 
 /*Contact Me styles*/
 .contact {
