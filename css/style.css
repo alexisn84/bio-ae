@@ -33,7 +33,6 @@ header a {
 
 header nav {
     margin: 8px 0;
-    list-style: none;
 }
 
 header nav ul {
@@ -41,6 +40,7 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    list-style-type: none;
     }
 
 header nav ul li a {
@@ -171,3 +171,30 @@ h2 {
 }
 
 /*Footer styles begin*/
+footer {
+    background-image: url(./images/clouds.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer h2 {
+    color: slateblue;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgb(255, 255, 255, 0.5);
+    margin: 0;
+}
+
+footer div {
+    color: slateblue;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: right;
+}
