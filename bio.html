@@ -45,13 +45,39 @@
             </section>
 	
 <!--Begin Contact Me section-->
-	        <section>
-	            <h2>Contact Info</h2>
-	            <ul>
-	                <li><strong>Email:</strong> <a href="#">elamrani.alexis@gmail.com</a></li>
-	                <li><strong>Github:</strong><a href="#">alexisn84</a></li>
-	                <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
-	            </ul>
+	        <section class="contact">
+                <div class="contact-cta">
+                    <h2>Contact Info</h2>
+                        <ul>
+                            <li><strong>Email:</strong> <a href="#">elamrani.alexis@gmail.com</a></li>
+                            <li><strong>Github:</strong><a href="#">alexisn84</a></li>
+                            <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
+                        </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Reach Out</h3>
+                    <form>
+                        <label for="name">Enter Company/Full Name:</label>
+                        <input type="text" placeholder="Name" name="name" id="name" class="form-info"/>
+                        <label for="email">Email Address:</label>
+                        <input type="email" placeholder="Email Address" name="email" id="email" class="form-info"/>
+                        <label for="phone">Phone Number:</label>
+                        <input type="phone" placeholder="Telephone" name="phone" id="phone" class="form-info"/>
+                        <p>
+                            Preferred Method of Contact:
+                            <span class="radio-wrapper">
+                                <input type="radio" name="email-confirm" id="email-yes">
+                                <label for="email-yes">Email</label>
+                            <span class="radio-wrapper">
+                                <input type="radio" name="phone-confirm" id="phone-yes">
+                                <label for="phone-yes">Telephone</label>
+                            </span>
+                        </p>
+                        <button type="submit">
+                            Get Coded!
+                        </button>
+                    </form>
+                </div>	            
 	        </section>
 
             <!--Begin Footer section-->

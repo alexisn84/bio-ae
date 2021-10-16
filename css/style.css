@@ -17,10 +17,6 @@ header {
     z-index: 9999;
 }
 
-.head-img {
-    flex: 1 10%;
-    margin-right: 80px;
-    }
 
 header h1 {
     color:skyblue;
@@ -59,3 +55,104 @@ header nav ul li a {
 h2 {
     color: aqua;
 }
+
+/*Contact Me styles*/
+.contact {
+    background-image: url(../css/images/clouds.jpg);
+    padding: 25px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    }
+
+.contact-cta {
+    margin: 3%;
+    width: 40%;
+    text-align: right;
+    color: wheat;
+    font-size: 16px;
+    line-height: 1.3;
+    }
+
+.contact-cta h2 {
+    font-size: 45px;
+    color: wheat;
+}
+
+.contact-form {
+    border: 4px solid slategray;
+    color: wheat;
+    background-color: rgba(113, 154, 158, 0.75);
+    padding: 20px;
+    width: 20%;
+    margin: 3%;
+    border-radius: 10%;
+}
+
+.contact-form h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.contact-form p {
+    margin: 5px 0 15px 0;
+}
+
+.contact-form label {
+    margin: 0 5px;
+}
+
+.contact-form button {
+    color: wheat;
+    background-color: slategray;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    background-color: snow;
+}
+
+.form-info {
+    border: 1px solid slategray;
+    display: block;
+    padding: 7px 15px;
+    font-size: 18px;
+    color: wheat;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color:rgba(164, 197, 219, 0.836);
+}
+
+.form-info :focus {
+    outline: none;
+    background-color: slategray;
+}
+
+.radio-wrapper input + label::after {
+    counter-reset:none;
+}
+
+.radio-wrapper input:checked + label::after {
+    counter-reset: "";
+}
+
+.radio-wrapper label {
+    position: relative;
+    margin: 4px;  
+    line-height: 1.6;
+}
+
+.radio-wrapper label::before {
+    border-radius: 50%;
+}
+
+/*Footer styles begin*/
