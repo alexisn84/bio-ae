@@ -52,30 +52,43 @@ header nav ul li a {
 
 
 
-/*Start styles to biography*/
+/*Start styles to about me*/
 .portrait {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 35px 0;
 }
 
 .portrait img {
     width: 35%;
     float: left;
+    padding-top: 10px;
 }
 
-.about-me h2 {
-    border-bottom: 10px solid slateblue;
-    font-size: 36px;
+.about h2 {
+    border-bottom: 7px solid skyblue;
+    font-size: 45px;
     text-align: center;
+    color: skyblue;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 .my-info p {
     font-size: 20px;
     line-height: 1.2;
+    padding-top: 10px;
 }
 
 .text-right {
     text-align: right;
+}
+
+.my-info {
+    background-color: slategray;
+    color: skyblue;
+    padding: 35px;
+    float: left;
+    width: 65%;
 }
 
 
@@ -83,11 +96,36 @@ header nav ul li a {
 
 .portfolio {
     padding: 45px;
-    margin: 50px;
+    margin: 0px auto 35px 0;
+    color: skyblue;
+    text-align: center;
+    width: 100%;
+    background: slategray;
 }
 
 .portfolio h2 {
-    color: slateblue;
+    color: skyblue;
+    font-size: 45px;
+    border-bottom: 7px solid skyblue;
+    padding: 10px 0;
+}
+
+.project {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.project h3 {
+    color: skyblue;
+    font-size: 35px;
+    flex: 1 40%;
 }
 
 
