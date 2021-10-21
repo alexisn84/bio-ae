@@ -114,8 +114,16 @@ header nav ul li a {
     padding: 10px 0;
 }
 
+.project img {
+    height: 75%;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    float: right;
+}
+
 .project {
-    text-align: left;
     margin: 50px auto;
     width: 80%;
     display: flex;
@@ -126,11 +134,12 @@ header nav ul li a {
 .project ul {
     text-decoration: none;
     list-style-type: none;
-    line-height: 2;    
+    line-height: 2;
+    text-align: left;    
 }
 
 .project li a {
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 .project ul li span {
@@ -138,12 +147,6 @@ header nav ul li a {
     color: skyblue;
     font-size: 25px;
     flex: 1 40%;
-}
-
-.project img {
-    height: 50%;
-    width: 150px;
-    float: right;
 }
 
 
@@ -304,3 +307,20 @@ footer div {
     font-weight: bolder;
     text-align: right;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {}}
+
+
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 30px 15px;
+    }}
+    
+    
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px) {}
