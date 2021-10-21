@@ -100,7 +100,7 @@ header nav ul li a {
 
 .portfolio {
     padding: 45px;
-    margin: 0px auto 35px 0;
+    margin: 20px 0px;
     color: skyblue;
     text-align: center;
     width: 100%;
@@ -122,15 +122,21 @@ header nav ul li a {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
+    justify-content: left;
+    }
 
 .project h3 a {
     text-decoration: none;
     color: skyblue;
     font-size: 35px;
     flex: 1 40%;
+    }
+
+.project-img {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;   
 }
 
 
@@ -152,7 +158,7 @@ header nav ul li a {
     border: 4px solid skyblue;
     color: slateblue;
     background-color: rgba(255, 255, 255, 0.70);
-    padding: 70px;
+    padding: 30px 70px 33px 70px;
     width: 35%;
     margin: 3%;
     border-radius: 10%;
@@ -168,6 +174,7 @@ header nav ul li a {
 
 .contact-cta ul {
     list-style-type: none;
+    padding: 20px;
 }
 
 .contact-cta span {
