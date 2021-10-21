@@ -79,7 +79,7 @@ header nav ul li a {
     font-size: 20px;
     line-height: 1.2;
     padding: 40px;
-}
+    }
 
 .text-right {
     text-align: right;
@@ -116,27 +116,34 @@ header nav ul li a {
 
 .project {
     text-align: left;
-    padding-top: 10px;
-    padding-bottom: 50px;
     margin: 50px auto;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-between;
     }
 
-.project h3 a {
+.project ul {
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 2;    
+}
+
+.project li a {
+    text-decoration: none;
+}
+
+.project ul li span {
     text-decoration: none;
     color: skyblue;
-    font-size: 35px;
+    font-size: 25px;
     flex: 1 40%;
-    }
+}
 
-.project-img {
+.project img {
     height: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;   
+    width: 150px;
+    float: right;
 }
 
 
