@@ -75,6 +75,11 @@ header nav ul li a {
     margin-bottom: 10px;
 }
 
+.about-h2 {
+    padding: 0px 30px;
+    margin: 10px;
+}
+
 .my-info p {
     font-size: 20px;
     line-height: 1.2;
@@ -99,7 +104,7 @@ header nav ul li a {
 /*Start styles to portfolio*/
 
 .portfolio {
-    padding: 45px;
+    padding: 45px 45px 0px 45px;
     margin: 20px 0px;
     color: skyblue;
     text-align: center;
@@ -115,11 +120,9 @@ header nav ul li a {
 }
 
 .project img {
-    height: 75%;
-    width: 350px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
+    height: 80%;
+    width: 50%;
+    
     float: right;
 }
 
@@ -127,19 +130,27 @@ header nav ul li a {
     margin: 50px auto;
     width: 80%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     }
+
+.project article {
+    width: 100%;
+}
 
 .project ul {
     text-decoration: none;
     list-style-type: none;
     line-height: 2;
-    text-align: left;    
+    text-align: left; 
+    float: left;
+    margin: 0;
+    width: 50%;
+    justify-items: center;   
 }
 
 .project li a {
-    text-decoration: none;    
+    text-decoration: none;  
+    justify-content: center;  
 }
 
 .project ul li span {
