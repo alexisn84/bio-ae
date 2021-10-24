@@ -23,7 +23,6 @@ header h1 {
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
-    margin: 0;
 }
 
 header a {
@@ -323,7 +322,10 @@ footer div {
 @media screen and (max-width: 980px) {
     .contact-cta {
         width: 100%;
-}}
+}
+
+.portrait {
+    width: 84.81%;}}
 
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER*/
