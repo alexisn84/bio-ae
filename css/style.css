@@ -102,61 +102,67 @@ header nav ul li a {
 
 /*Start styles to portfolio*/
 
-.portfolio {
-    padding: 45px 45px 0px 45px;
-    margin: 20px 0px;
-    color: skyblue;
-    text-align: center;
-    width: 100%;
-    background: slategray;
-}
-
-.portfolio h2 {
-    color: skyblue;
-    font-size: 45px;
-    border-bottom: 7px solid skyblue;
-    padding: 10px 0;
-}
-
-.project img {
-    height: 80%;
-    width: 50%;
-    
-    float: right;
-}
-
 .project {
-    margin: 50px auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    }
-
-.project article {
+    padding: 20px;
+}
+.portfolio {
     width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.project ul {
-    text-decoration: none;
-    list-style-type: none;
-    line-height: 2;
-    text-align: left; 
-    float: left;
-    margin: 0;
-    width: 50%;
-    justify-items: center;   
-}
-
-.project li a {
-    text-decoration: none;  
-    justify-content: center;  
-}
-
-.project ul li span {
-    text-decoration: none;
+.pro-h2 h2 {
+    border-bottom: 7px solid skyblue;
+    font-size: 45px;
+    text-align: center;
     color: skyblue;
-    font-size: 25px;
-    flex: 1 40%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.apps {
+    margin:  20px;
+    background: slategray;
+    color: skyblue;
+    flex: 1;
+    
+}
+
+.apps img {
+    width: 100%;
+        padding: 10px 50px;
+}
+
+.app-title a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.app-bio {
+    padding: 25px;
+    line-height: 1.3;
+}
+
+.app-bio h3 {
+    font-size: 28px;
+}
+
+.app-bio p {
+    font: 17px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.flex-row {
+    display: flex;
 }
 
 
@@ -320,30 +326,72 @@ footer div {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+    
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+        flex: 0 60%;
+    }
+    header h1 {
+        width: 70%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 80%;
+        justify-content: center;
+        flex: 0 70%;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 70%;
+    }
+
+    .about {
+        width: 70%;
+    }
+
+    .project {
+        width: 70%;
+    }
+    .apps {
+        flex: 0 70%;
+        }
+
+    .contact {
+        width: 70%;
+    }
     .contact-cta {
-        width: 100%;
+        font-size: 40%;
+        width: 70%;
+        text-align: center;
+    }
+    
+    .contact-form {
+        width: 70%;
+        font-size: 70%;
+    }
+
+    .contact-cta {
+        text-align: center;
+    }
 }
-
-.portrait {
-    width: 84.81%;}}
-
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER*/
 @media screen and (max-width: 768px) {
-    .contact-cta {
-        width: 100%;
-}
-.contact-cta {
-    border: 4px solid skyblue;
-    color: black;
-}}    
+    
+}    
     
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
 @media screen and (max-width: 575px) {
-    .contact-form {
-        border: 4px solid skyblue;
-        color: black;
+    .contact {
+        color: black
     }
-    .contact-cta {
-        width: 100%;
-}}
+}
