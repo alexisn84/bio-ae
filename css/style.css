@@ -63,6 +63,7 @@ header nav ul li a {
     height: 100%;
     width: 150px;
     float: left;
+    margin: 0px 0px 0px 20px;
 }
 
 .about h2 {
@@ -71,7 +72,7 @@ header nav ul li a {
     text-align: center;
     color: skyblue;
     padding: 10px 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .about-h2 {
@@ -79,10 +80,12 @@ header nav ul li a {
     margin: 10px;
 }
 
+
 .my-info p {
     font-size: 20px;
     line-height: 1.2;
-    padding: 40px;
+    padding: 30px 10px;
+    
     }
 
 .text-right {
@@ -93,7 +96,7 @@ header nav ul li a {
     padding: 25px 0;
     background-color: slategray;
     color: skyblue;
-    width: 100%;
+    width: 98%;
     margin: 50px 0px 0px 150px;
     height: 100%;
     text-align: center;
@@ -123,7 +126,7 @@ header nav ul li a {
 }
 
 .apps {
-    margin:  20px;
+    margin: 15px;
     background: slategray;
     color: skyblue;
     flex: 1;
@@ -132,7 +135,7 @@ header nav ul li a {
 
 .apps img {
     width: 100%;
-        padding: 10px 50px;
+    padding: 10px 50px;
 }
 
 .app-title a {
@@ -332,7 +335,9 @@ footer div {
         justify-content: center;
         position: relative;
         flex: 0 60%;
+        width: 70%;
     }
+
     header h1 {
         width: 70%;
         text-align: center;
@@ -349,7 +354,7 @@ footer div {
         font-size: 20px;
     }
 
-    footer h2, footer div {
+    footer {
         text-align: center;
         width: 70%;
     }
@@ -358,6 +363,7 @@ footer div {
         width: 70%;
     }
 
+    
     .project {
         width: 70%;
     }
