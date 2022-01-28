@@ -16,17 +16,20 @@
 
 ## Table of Contents
 - [Description](#description)
-- [NPM Packages](#npm-packages)
-- [Installation](#installation)
 - [Direct Link](#direct-link)
+- [Installation](#installation)
 - [Contribution](#contribution)
 - [Questions](#questions)
+- [NPM Packages](#npm-packages)
 
 ## Description
-A online portfolio that allows potential employers and clientele to view my works in a live setting. Build an area where several links to previous projects (school, paid and leisure) can be viewed to showcase my ability and talent. 
+A online portfolio that allows potential employers and clientele to view my skills action. 
 
 ## Direct Link
 https://alexisn84.github.io/bio-ae/
+
+## Installation
+Published through Github only. Additional projects to be added as developed.
 
 ## Contribution
 Not accepting contributions at this time.
