@@ -1,180 +1,199 @@
-* {
+/* Design Styles
+
+canva.com
+Colors
+French Gray #B8B6BC
+Jungle Mist #B6CCD3
+Teal Blue #044664
+Mosque #04546A
+==============================================*/
+
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Start styles to header*/
+body {
+    font-family: 'Lora', serif;
+    color: #000
+}
+
+/*Start styles to header
+=================================*/
 header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: #96a0a1;
-    padding: 20px 25px;
+    padding: 20px 35px;
+    background-image: url(./images/88-882598_web-design-blue-web-design-background-pattern.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
     z-index: 9999;
 }
 
 
 header h1 {
-    color:skyblue;
+    color:#B6CCD3;
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
+    flex: 1;
 }
 
 header a {
-    color: skyblue;
+    color: #B6CCD3;
     text-decoration: none;
 }
 
 header nav {
-    margin: 8px 0;
+    margin: 7px 0;
+    justify-content: space-between;
+    flex: 4;
+    text-align: right;
+    text-decoration: none;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
+    display: inline;
+    text-decoration: none;
     }
 
 header nav ul li a {
+    margin: 0 30px;
     font-size: 1.6vw;
     font-weight: lighter;
-    padding: 10px 30px;
-    font-style: italic;
+    font-style: italic
 }
 
 
 
-/*Start styles to about me*/
-.portrait {
-    width: 88.91%;
-    height: 200px;
-    margin-bottom: 20px;
-    /* margin: 0 auto; */
-}
-
-.portrait img {
-    height: 100%;
-    width: 150px;
-    float: left;
-    margin: 0px 0px 0px 20px;
-}
-
-.about h2 {
-    border-bottom: 7px solid skyblue;
-    font-size: 45px;
-    text-align: center;
-    color: skyblue;
-    padding: 10px 0;
-    margin-bottom: 5px;
-}
-
-.about-h2 {
-    padding: 0px 30px;
-    margin: 10px;
-}
-
-
-.my-info p {
-    font-size: 20px;
-    line-height: 1.2;
-    padding: 30px 10px;
-    
-    }
-
-.text-right {
-    text-align: right;
-}
-
-.my-info {
-    padding: 25px 0;
-    background-color: slategray;
-    color: skyblue;
-    width: 98%;
-    margin: 50px 0px 0px 150px;
-    height: 100%;
-    text-align: center;
-    }
-
-
-/*Start styles to portfolio*/
-
-.project {
-    padding: 20px;
-}
-.portfolio {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.pro-h2 h2 {
-    border-bottom: 7px solid skyblue;
-    font-size: 45px;
-    text-align: center;
-    color: skyblue;
-    padding: 10px 0;
-    margin-bottom: 10px;
-}
-
-.apps {
-    margin: 15px;
-    background: slategray;
-    color: skyblue;
-    flex: 1;
-    
-}
-
-.apps img {
-    width: 100%;
-    padding: 10px 50px;
-}
-
-.app-title a {
-    text-decoration: none;
-    color: wheat;
-}
-
-.app-bio {
-    padding: 25px;
-    line-height: 1.3;
-}
-
-.app-bio h3 {
-    font-size: 28px;
-}
-
-.app-bio p {
-    font: 17px;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.flex-row {
-    display: flex;
-}
-
-
-/*Contact Me styles*/
-.contact {
-    background-image: url(../css/images/clouds.jpg);
-    padding: 25px;
+/*Start styles to Intro section
+========================================*/
+.intro {
+    background-image: url(./images/intro-img.jpg);
     background-size: cover;
     background-position: center;
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portrait-img img {
+    flex: 1;
+    border: 10px solid #044664;
+    border-radius: 75%;
+    max-width: 500px;
+    height: auto;
+    margin: 50px;
+}
+
+.intro-text {
+    color: #044664;
+    flex: 3;
+    width: 50%;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+.intro-text h1 {
+    background-color: rgb(182, 204, 211, .3);
+    color: #044664;
+    text-align: center;
+    font-family: Bellota;
+    font-size: 3em;  
+    }
+
+.intro-text h2 {
+    color: #128f8b;
+    background-color: rgb(182, 204, 211, .3);
+    text-align: center;
+    font-family: Bellota;
+    font-size: 2em;
+} 
+
+/*Start styles for about section
+==================================*/
+.about {
+    background-color: #04546A;
+    color: #B6CCD3;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 400px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.about-text {
+    flex: 3;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.about img {
+    flex: 1;
+    border: 10px solid #B6CCD3;
+    border-radius: 50%;
+    max-width: 400px;
+    height: 400px;
+    margin: 100px;
+}
+
+/*Start styles for portfolio section
+==================================*/
+
+.portfolio {
+    background-color: #BFC5C6;
+    min-height: 500px;
+    max-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio img {
+    display: block;
+    border-radius: 25%;
+    max-width: 300px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: #04546A;
+}
+
+.portfolio h3 {
+    text-align: center;
+    text-decoration: none;
+}
+.app-text{
+    text-align: center;
+    color: #044664;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*Contact Me styles*/
+.contact {
+    /* background-image: url(../css/images/clouds.jpg);
+    padding: 25px;
+    background-size: cover;
+    background-position: center; */
+    background-color: #B6CCD3;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -182,41 +201,6 @@ header nav ul li a {
     background-attachment: fixed;
     background-position: 80%;
     }
-
-.contact-cta {
-    border: 4px solid skyblue;
-    color: slateblue;
-    background-color: rgba(255, 255, 255, 0.70);
-    padding: 30px 70px 33px 70px;
-    width: 35%;
-    margin: 3%;
-    border-radius: 10%;
-    justify-content: space-between;
-    }
-
-.contact-cta h2 {
-    font-size: 33px;
-    color: slateblue;
-    margin: 0%;
-    font-style: italic;
-    }
-
-.contact-cta ul {
-    list-style-type: none;
-    padding: 20px;
-}
-
-.contact-cta span {
-    font-size: 25px;
-    font-style: italic;
-}
-
-.contact-cta ul li a {
-    color: rgb(14, 118, 221);
-    font-size: 24px;
-    text-decoration: none;
-    justify-content: space-around;
-}
 
 .contact-form {
     border: 4px solid skyblue;
@@ -298,34 +282,47 @@ header nav ul li a {
     border-radius: 50%;
 }
 
-/*Footer styles begin*/
+/* Footer Styles
+   ========================================================================== */   
+
 footer {
-    background-image: url(./images/clouds.jpg);
+    background-image: url(./images/88-882598_web-design-blue-web-design-background-pattern.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 100%;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 footer h2 {
-    color: slateblue;
-    font-size: 28px;
-    font-style: italic;
-    font-weight: bold;
-    text-shadow: 0 0 15px rgb(255, 255, 255, 0.5);
+    color: #B6CCD3;
+    font-size: 26px;
+    font-weight: lighter;
     margin: 0;
 }
 
-footer div {
-    color: slateblue;
-    font-size: 28px;
-    font-weight: bolder;
+.footer-h2 {
+    flex: 5;
+}
+
+.links {
+    line-height: 1.5;
+    flex: 1;
     text-align: right;
 }
+
+.links ul li {
+    display: inline-block;
+}
+
+.links a {
+    text-decoration: none;
+}
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
